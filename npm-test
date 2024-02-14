@@ -1,0 +1,19 @@
+mathapp@0.0.0 test
+mocha -- reporter mocha-circleci-reporter test/*.js
+
+utils 
+#add()
+should return 2 when 1 and 1 is added
+should return 37 when 15 and 22 is added
+#mulitply()
+should return 4 when 2 and 2 is multiplied
+should return 49 when 7 and 7 and multiplied
+#subtract()
+should return -4 when 4 and 8 are subtracted
+should return 12 when 4 and -8 and subtracted
+should return 1 when 2 and 1 are subtracted
+#divide()
+should return 4 whgen 8 and 2 are divided
+should return 1 when 1 and 1 are divided
+should return 0 when 1 and 0 are divided
+
